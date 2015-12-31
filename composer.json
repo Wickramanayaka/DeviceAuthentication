@@ -1,0 +1,22 @@
+{
+    "name": "chamal/deviceauthentication",
+    "description": "Package for device authentication",
+    "type": "project",
+    "require": {
+        "php": "^5.5",
+        "illuminate/support": "5.0.x|5.1.x"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chamal",
+            "email": "chamal.aw@live.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Chamal\\DeviceAuthentication\\": "src/"
+        }
+    },
+    "require": {}
+}
