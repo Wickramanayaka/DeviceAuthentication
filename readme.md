@@ -36,7 +36,7 @@ Currently the tokens are stored in the database, you will need to run the migrat
 After installation, you can get, set, validate and discard the token at any point of the application.
 
 ```
-	Authentication::getToken($device_id);
+    Authentication::getToken($device_id);
     Authentication::setToken($device_id);
     Authentication::validateToken($token);
     Authentication::discardToken($device_id,$token=0);
